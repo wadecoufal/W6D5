@@ -43,3 +43,36 @@ h1 {
   border-radius: 3px;
   padding: 10px;
 }
+
+.tab-headers {
+  display:flex;
+}
+
+.tab-headers h1 {
+  background: orange;
+  border: 1px solid black;
+  border-radius: 15px 15px 0 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.tab-header:hover {
+  background-color: black;
+  color: white;
+}
+
+.tab-content {
+  background-color: orange;
+  width: 180px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+
+.tab-widget {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
